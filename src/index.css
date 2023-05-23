@@ -6,3 +6,30 @@
     font-family: 'Manrope', sans-serif;
     box-sizing: border-box;
   }
+
+  .range{
+    appearance: none;
+    width: 250px;
+    height: 12px;
+    outline:none;
+  
+    border-radius: 50px;
+    
+    
+  }
+
+  .range::-webkit-slider-thumb{
+    appearance: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    background-color:hsl(174, 86%, 45%);
+    background-image: url('./images/icon-slider.svg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    cursor: pointer;
+    
+    
+    
+  }
